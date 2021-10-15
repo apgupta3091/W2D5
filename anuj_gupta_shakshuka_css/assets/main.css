@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: lightyellow;
+    font-size: 12px;
+}
+header ul {
+    list-style: square inside;
+    padding:20px;
+}
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 38px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 32px;
+    padding:5px;
+}
+
+.ingredients-list{
+    list-style: square inside;
+    padding:30px;
+}
+
+ol{
+    list-style: upper-roman inside;
+    padding:30px;
+}
+
+header > img {
+    width: 100px;
+    padding:5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+figure {
+    padding:30px;
+}
+figcaption a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    padding: 5px;
+}
+
+
+
+input[type=radio],select,input[type=submit]{
+    cursor:pointer;
+    outline:none;
+}
+
+input:last-child {
+    background: gold;
+}
+
+input:last-child:hover{
+    background: orange;
+}
+
+ol :nth-child(2n){
+    background:lightgray;
+}
+
+input[type=radio]{
+    -webkit-appearance:none;
+    width:27px;
+    height:27px;
+    background-image:url(./stars.png);
+    vertical-align:bottom
+}
+
+.review-h2{
+    margin-bottom: 20px;
+}
+
+h2+.user_review{
+    border-top:1px solid #000
+}
+
+input[type=radio]:hover{
+    background-position:30px 60px
+}
+
+input[type=radio]:checked{
+    background-position:30px 30px;
+}
+
+#review-form{
+    padding:5px;
+}
